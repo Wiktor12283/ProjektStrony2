@@ -4,25 +4,72 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/7.0.0/normalize.css "
+    />
   </head>
   <body>
     <nav>
       <div class="rectangle"></div>
       <div class="rectangle"></div>
-      <img src="" alt="" class="symbol" />
-      <img src="" alt="" class="symbol" />
-      <img src="" alt="" class="symbol" />
-      <img src="" alt="" class="symbol" />
-      <img src="" alt="" class="symbol" />
-      <img src="" alt="" class="symbol" />
+      <a href="#"
+        ><img
+          src="./assets/podcasts_FILL0_wght400_GRAD0_opsz24.svg"
+          alt="Logo"
+          class="symbol"
+      /></a>
+      <a href="#"
+        ><img
+          src="./assets/home_FILL0_wght400_GRAD0_opsz24.svg"
+          alt="Home"
+          class="symbol"
+      /></a>
+      <a href="#"
+        ><img
+          src="./assets/chat_bubble_FILL0_wght400_GRAD0_opsz24.svg"
+          alt="Forum"
+          class="symbol"
+      /></a>
+      <a href="#"
+        ><img
+          src="./assets/pie_chart_FILL0_wght400_GRAD0_opsz24.svg"
+          alt="Statistics"
+          class="symbol"
+      /></a>
+      <a href="#"
+        ><img
+          src="./assets/group_FILL0_wght400_GRAD0_opsz24.svg"
+          alt="Community"
+          class="symbol"
+      /></a>
+      <a href="#"
+        ><img
+          src="./assets/settings_FILL0_wght400_GRAD0_opsz24.svg"
+          alt="Settings"
+          class="symbol"
+      /></a>
     </nav>
     <header class="search-bar">
-      <img src="" alt="" class="search" />
+      <img
+        src="./assets/search_FILL0_wght400_GRAD0_opsz24.svg"
+        alt="Search"
+        class="search"
+      />
       <input type="text" placeholder="Search" />
-      <img src="" alt="" class="symbol" />
+      <img
+        src="./assets/notifications_FILL0_wght400_GRAD0_opsz24.svg"
+        alt="Notifications"
+        class="symbol"
+      />
       <nav class="profile">
-        <img src="" alt="" class="menu" />
-        <img src="" alt="" class="profile" />
+        <img
+          src="./assets/more_vert_FILL0_wght400_GRAD0_opsz24.svg"
+          alt="Menu"
+          class="menu"
+        />
+        <div class="avatar">M</div>
       </nav>
     </header>
     <div class="content">
@@ -51,51 +98,68 @@
       </main>
     </div>
     <div class="content">
-      <div>
-        <h1></h1>
-        <div class="graph">
-          <div class="pole">
-            <div class="rectangle"></div>
-            <div class="rectangle"></div>
-            <div class="popup">
-              <div class="color"></div>
-              <span></span>
-            </div>
+      <div id="graphs">
+        <h1>Top Performing Podcasts</h1>
+        <div class="pole" id="purple">
+          <div class="rectangle"></div>
+          <div class="rectangle"></div>
+          <div class="popup">
+            <div class="color"></div>
+            <span>Downloads</span>
           </div>
-          <div class="pole">
-            <div class="rectangle"></div>
-            <div class="rectangle"></div>
-            <div class="popup">
-              <div class="color"></div>
-              <span></span>
-            </div>
+        </div>
+        <div class="pole" id="blue">
+          <div class="rectangle"></div>
+          <div class="rectangle"></div>
+          <div class="popup">
+            <div class="color"></div>
+            <span>Downloads</span>
           </div>
-          <div class="pole">
-            <div class="rectangle"></div>
-            <div class="rectangle"></div>
-            <div class="popup">
-              <div class="color"></div>
-              <span></span>
-            </div>
+        </div>
+        <div class="pole" id="pink">
+          <div class="rectangle"></div>
+          <div class="rectangle"></div>
+          <div class="popup">
+            <div class="color"></div>
+            <span>Downloads</span>
           </div>
-          <div class="pole">
-            <div class="rectangle"></div>
-            <div class="rectangle"></div>
-            <div class="popup">
-              <div class="color"></div>
-              <span></span>
-            </div>
+        </div>
+        <div class="pole" id="red">
+          <div class="rectangle"></div>
+          <div class="rectangle"></div>
+          <div class="popup">
+            <div class="color"></div>
+            <span>Downloads</span>
           </div>
-          <div class="pole">
-            <div class="rectangle"></div>
-            <div class="rectangle"></div>
-            <div class="popup">
-              <div class="color"></div>
-              <span></span>
-            </div>
+        </div>
+        <div class="pole" id="yellow">
+          <div class="rectangle"></div>
+          <div class="rectangle"></div>
+          <div class="popup">
+            <div class="color"></div>
+            <span>Downloads</span>
           </div>
         </div>
       </div>
+      <aside>
+        <button>Top podcasters</button>
+        <button>Top episodes</button>
+        <div class="profile">
+          <img src="" alt="" />
+          <h6>Earth Tones</h6>
+          <span>Wade Warren</span><span>2d</span>
+        </div>
+        <div class="profile">
+          <img src="" alt="" />
+          <h6>Around the world</h6>
+          <span>Guy Hawkins</span><span>2d</span>
+        </div>
+        <div class="profile">
+          <img src="" alt="" />
+          <h6>World of kids</h6>
+          <span>Adam Thorne</span><span>2d</span>
+        </div>
+      </aside>
     </div>
   </body>
 </html>
